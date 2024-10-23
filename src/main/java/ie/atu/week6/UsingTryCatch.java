@@ -9,7 +9,7 @@ public class UsingTryCatch {
         try (Scanner sc = new Scanner(System.in)) {
             while (repeat) {
                 try  {
-                    System.out.println("Please enter a number between 0 - 9: ");
+                    System.out.print("Please enter a number between 0 - 9: ");
                     String input = sc.nextLine();
                     int Num = Integer.parseInt(input);
 
